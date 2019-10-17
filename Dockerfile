@@ -12,7 +12,6 @@ RUN apt-get update && apt-get install -y \
 ADD . /opt/code
 RUN pip3 install -r /opt/code/requirements.txt
 
-#CMD ["python", "/opt/code/run.py"]
 WORKDIR /opt/code
 USER nobody
 EXPOSE 8888
