@@ -1,4 +1,4 @@
-DOCKER_TAG ?= flask_template
+DOCKER_TAG ?= flask_traditional
 
 .PHONY: run
 run: build
